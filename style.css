@@ -57,6 +57,7 @@ ul li{
     display: inline-block;
     flex-direction: column;
     background: #1C162C;
+    padding: 20px;
 }
 
 .sub-left li{
@@ -94,8 +95,8 @@ button#tertiaty{
 
 .botoes{
     position: absolute;
-    top: 250px;
-    left: 419px;
+    top: 287px;
+    left: 210px;
     background-color: #0b0911;
 }
 
@@ -116,6 +117,10 @@ button#tertiaty{
     justify-content: space-evenly;
     margin: 10px;
     gap: 100px;
+}
+
+.focus button#segundary,button#primary, button#tertiaty{
+    border: 2px solid white;
 }
 
 .disabled{
@@ -140,6 +145,11 @@ button#tertiaty{
     justify-content: space-evenly;
     margin: 10px;
     gap: 100px;
+}
+
+img#cursor{
+    width: 50px;
+    background-color: white;
 }
 
 .container2{
@@ -209,7 +219,9 @@ div#burgerbutton{
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction:row-reverse;
 }
+
 .fa-bars{
     margin: 0px 20px;
     text-align: center;
